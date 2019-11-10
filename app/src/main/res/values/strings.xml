@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Android XML Login UI 4</string>
+    <string name="desc">   Welcome to this Sign up app best ever .</string>
+    <string name="create_a_account">Create a account</string>
+    <string name="sign_up">Register </string>
+    <string name="sign_in">Login </string>
+</resources>

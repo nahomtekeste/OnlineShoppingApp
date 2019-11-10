@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/phone"
+                android:scaleType="matrix" />
+
+            <TextView
+                android:id="@+id/textViewIsNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:width="38dp"
+                android:background="#1C9603"
+                android:padding="2dp"
+                android:text="New"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewRating0"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/textview"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="UA"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/relative"
+                android:paddingLeft="12dp"
+                android:paddingTop="3dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="3dp">
+
+                <ImageView
+                    android:id="@+id/imageViewLike"
+                    android:layout_width="15dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/ic_like" />
+
+                <TextView
+                    android:id="@+id/textViewLikePercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLike"
+                    android:text="78%"
+                    android:textColor="#0687F7"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewVotesCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLikePercent"
+                    android:layout_centerHorizontal="true"
+                    android:text="23023 votes"
+                    android:textColor="#0687F7"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@drawable/background2"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 6"
+                android:textColor="#F5F1F1"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle"
+                android:text="BRAND NEW SMART PHONE"
+                android:textColor="#F5F1F1" />
+
+            <Button
+                android:id="@+id/btn_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Book" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/phoneforsel1"
+                android:scaleType="matrix" />
+
+            <TextView
+                android:id="@+id/textViewIsNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:width="38dp"
+                android:background="#1C9603"
+                android:padding="2dp"
+                android:text="New"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewRating"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/textview"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="UA"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/relative"
+                android:paddingLeft="12dp"
+                android:paddingTop="3dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="3dp">
+
+                <ImageView
+                    android:id="@+id/imageViewLike1"
+                    android:layout_width="15dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/ic_like" />
+
+                <TextView
+                    android:id="@+id/textViewLikePercent1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLike1"
+                    android:text="78%"
+                    android:textColor="#0687F7"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewVotesCountp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLikePercent1"
+                    android:layout_centerHorizontal="true"
+                    android:text="23023 votes"
+                    android:textColor="#0687F7"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@drawable/background2"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 6"
+                android:textColor="#F5F1F1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewLanguage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle1"
+                android:text="BRAND NEW SMART PHONE"
+                android:textColor="#F5F1F1" />
+
+            <Button
+                android:id="@+id/btn_book2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Book" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#F7F0F0" />
+
+        <TextView
+            android:id="@+id/textViewType1"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/textview"
+            android:padding="2dp"
+            android:text="2D"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#F5F1F1" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/phone"
+                android:scaleType="matrix" />
+
+            <TextView
+                android:id="@+id/textViewIsNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:width="38dp"
+                android:background="#1C9603"
+                android:padding="2dp"
+                android:text="New"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewRating3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/textview"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="UA"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/relative"
+                android:paddingLeft="12dp"
+                android:paddingTop="3dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="3dp">
+
+                <ImageView
+                    android:id="@+id/imageViewLike2"
+                    android:layout_width="15dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/ic_like" />
+
+                <TextView
+                    android:id="@+id/textViewLikePercent111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLike2"
+                    android:text="78%"
+                    android:textColor="#0687F7"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewVotesCount3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLikePercent111"
+                    android:layout_centerHorizontal="true"
+                    android:text="23023 votes"
+                    android:textColor="#0687F7"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@drawable/background2"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 6"
+                android:textColor="#F5F1F1"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewLanguage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle3"
+                android:text="BRAND NEW SMART PHONE"
+                android:textColor="#F5F1F1" />
+
+            <Button
+                android:id="@+id/btn_book3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Book" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#F7F0F0" />
+
+        <TextView
+            android:id="@+id/textViewType3"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/textview"
+            android:padding="2dp"
+            android:text="2D"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#F5F1F1" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
